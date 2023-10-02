@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">    
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+	<header>
+        <!-- menu retrátil lateral esquerda -->
+        <input type="checkbox" id="check">
+        <label for="check" id="icone"></label>
+        <section class="barra">
+            <nav>
+                <a href="#"><section class="Link">Home</section></a>
+                <a href="pages/sobre.html"><section class="Link">Sobre</section></a>
+                <a href="pages/ajuda.html#"><section class="Link">Ajuda</section></a>
+            </nav>
+        </section>
+        <!-- barra fixa azul horizontal -->
+
+        <label for="menu-hamburguer">
+            <section id="menu-hamburguer">
+                <span class="hamburguer"></span>
+            </section>
+        </label>        
+    </header>
+    
+    <main class="container">
+        <section class="title">
+            <h1>Jogo da Velha</h1>
+        </section>
+        
+        <section class="tabuleiro">
+            <section class="grid" id="cel11" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel12" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel13" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel21" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel22" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel23" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel31" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel32" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel33" onclick="joga(this.id);"></section>
+        </section>       
+
+        <section>
+            <button type="reset" id="teste"onclick="novo();">Limpar</button>
+        </section>
+    </main>
+</body>
+
+</html>
