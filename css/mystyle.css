@@ -1,9 +1,9 @@
 /* Define as variáveis para utilização de cores*/
 :root {
   --cor-fundo: rgb(90, 226, 187);
-  --cor-main: rgb(65, 120, 209);
-  --cor-main-dark: rgb(21, 27, 205);
-  --cor-fonte: rgb(255 255 255);
+  --cor-main: rgb(46, 35, 199);
+  --cor-main-dark: rgb(237, 132, 155);
+  --cor-fonte: rgb(255, 216, 216);
   --jogadorX: rgb(100 100 100);
 }
 
@@ -11,7 +11,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Nosifer', serif;
+  font-family: 'Times New Roman', Times, serif;
   outline: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;

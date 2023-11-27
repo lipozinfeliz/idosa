@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const status = document.querySelector('.status');
     const resetBtn = document.getElementById('reset-button');
 
-    let jogadorAtual = 'Hulk';
+    let jogadorAtual = 'Tuba Raposa';
     let jogoAtivo = true;
 
     // Criação e inicialização do array do tabuleiro
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
             jogoAtivo = false;
             status.textContent = `O jogador ${jogadorAtual} venceu!`;
        } else if (tabuleiro.includes('')) {
-            jogadorAtual = jogadorAtual === 'Hulk' ? 'IronMan' : 'Hulk';
+            jogadorAtual = jogadorAtual === 'Tuba Raposa' ? 'Tuba Martelo' : 'Tuba Raposa';
             status.textContent = `É a vez do jogador ${jogadorAtual}`;
        } else {
             jogoAtivo = false;
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Condicional com operador ternário
         // Verifica qual o jogador ativo e preenche com a imagem definida
-        imagem.src = jogador === 'Hulk' ? 'images/hulk.png' : 'images/ironman.png';
+        imagem.src = jogador === 'Tuba Raposa' ? 'images/tresher-shark-copy.jpg' : 'images/tuba-martelo.jpg';
         imagem.alt = jogador;
         return imagem;
     }
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function resetJogo() {
         tabuleiro = ['', '', '', '', '', '', '', '', ''];
         jogoAtivo = true;
-        jogadorAtual = 'Hulk';
+        jogadorAtual = 'Tuba Raposa';
 
         // Laço que percorre o Array, limpando o conteúdo
         // Apaga cada filho do Array, um a um

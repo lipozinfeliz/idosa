@@ -1,11 +1,13 @@
-/* Realiza a importação de uma família de fontes do Google*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color:indianred;
+}
 
 /* Define as variáveis para utilização de cores*/
 :root {
-  --cor-fundo: rgb(90, 226, 187);
-  --cor-main: rgb(143, 32, 56);
-  --cor-main-dark: rgb(21, 27, 205);
+  font-family: 'Times New Roman', Times, serif;
+  background-color:indianred;
+  --cor-main-dark: rgb(215, 39, 92);
   --cor-fonte: rgb(255 255 255);
   --jogadorX: rgb(100 100 100);
 }
@@ -14,7 +16,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', cursive;
+  font-family: 'Times New Roman', Times, serif;
   outline: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
@@ -29,7 +31,7 @@
 
 /* Cria o tabuleiro utilizando grid*/
 .tabuleiro {
-  background: var(--cor-main);  
+  background-color:indianred;
   display: grid;
   grid-template-columns: repeat(3, 150px);
   grid-template-rows: repeat(3, 150px);
@@ -51,7 +53,7 @@
 
 button {
   margin-top: 20px;
-  background: var(--cor-main);
+  background-color:indianred;
   width: 100px;
   height: 50px;
   font-size: 20px;

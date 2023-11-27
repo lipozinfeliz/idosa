@@ -16,7 +16,7 @@
 
 /* Define as configurações da barra de menu*/
 .barra {
-  background-color: var(--cor-main);
+  background-color:indianred;
   height: 100%;
   width: 250px;
   position: fixed;
@@ -40,7 +40,7 @@ nav a {
 .Link {
   background-color: var(-cor-main-dark);
   padding: 20px;
-  font-family: 'Gotham';
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16pt;
   transition: all .3s linear;
   color: var(--cor-fonte);
@@ -49,8 +49,8 @@ nav a {
 }
 
 .Link:hover {
-  background-color: #076992;
-  color: #ffffff;
+  background-color:indianred;
+  color: #ffac97;
 }
 
 #check:checked~.barra {
@@ -78,7 +78,7 @@ nav a {
 .hamburguer {
   position: relative;
   display: block;
-  background: var(--cor-main-dark);
+  background-color:indianred;
   width: 30px;
   height: 3px;
   top: 29px;
@@ -89,7 +89,7 @@ nav a {
 /* Altera os efeitos do antes e depois*/
 .hamburguer:before,
 .hamburguer:after {
-  background: var(--cor-main-dark);
+  background-color:indianred;
   content: '';
   display: block;
   width: 100%;
